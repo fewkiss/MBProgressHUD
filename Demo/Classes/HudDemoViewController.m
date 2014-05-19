@@ -89,6 +89,9 @@
 	HUD.delegate = self;
 	HUD.labelText = @"Loading";
 	
+	NSLog(@"git test");
+	
+	
 	// myProgressTask uses the HUD instance to update progress
 	[HUD showWhileExecuting:@selector(myProgressTask) onTarget:self withObject:nil animated:YES];
 }
